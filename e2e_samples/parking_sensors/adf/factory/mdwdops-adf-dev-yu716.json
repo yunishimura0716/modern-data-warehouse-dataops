@@ -1,0 +1,9 @@
+{
+	"name": "mdwdops-adf-dev-yu716",
+	"location": "japaneast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "76adbd26-fc0f-450a-9fb8-0c2c6323e244",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
