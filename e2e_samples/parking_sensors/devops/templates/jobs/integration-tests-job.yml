@@ -10,7 +10,7 @@ jobs:
   steps:
   - script: |
       curl https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc 
-      sudo bash -c "curl https://packages.microsoft.com/config/$(lsb_release -rs)/prod.list > /etc/apt/sources.list.d/mssql-release.list"
+      sudo bash -c "curl https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/prod.list > /etc/apt/sources.list.d/mssql-release.list"
       sudo apt-get update
       sudo ACCEPT_EULA=Y apt-get -y install msodbcsql17 unixodbc-dev
     displayName: 'Install msodbc'
