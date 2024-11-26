@@ -109,7 +109,7 @@
 						"referenceName": "Ds_REST_MelbParkingData",
 						"type": "DatasetReference",
 						"parameters": {
-							"relativeurl": "dtpv-d4pf.json"
+							"relativeurl": "MelbParkingSensorData.json"
 						}
 					}
 				],
@@ -118,10 +118,7 @@
 						"referenceName": "Ds_AdlsGen2_MelbParkingData",
 						"type": "DatasetReference",
 						"parameters": {
-							"infilefolder": {
-								"value": "@variables('infilefolder')",
-								"type": "Expression"
-							},
+							"infilefolder": "@variables('infilefolder')",
 							"infilename": "MelbParkingSensorData.json",
 							"container": "datalake/data/lnd"
 						}
@@ -163,7 +160,7 @@
 						"referenceName": "Ds_REST_MelbParkingData",
 						"type": "DatasetReference",
 						"parameters": {
-							"relativeurl": "wuf8-susg.json"
+							"relativeurl": "MelbParkingBayData.json"
 						}
 					}
 				],
